@@ -97,9 +97,6 @@
     soundHit:
       path: /Audio/Effects/bite.ogg
     animation: WeaponArcBite
-  - type: TypingIndicator
-    proto: feroxi
-    dehydrationThreshold: 150
   - type: Inventory
     speciesId: reptilian
 
