@@ -6,8 +6,8 @@
     
 - type: emoteSounds
   parent: [RMCUnisexFeroxi, RMCMaleHuman]
-  id: RMCMaleVulpkanin
+  id: RMCMaleFeroxi
 
 - type: emoteSounds
   parent: [RMCUnisexFeroxi, RMCFemaleHuman]
-  id: RMCFemaleVulpkanin
+  id: RMCFemaleFeroxi
