@@ -1,7 +1,7 @@
 - type: entity
   parent: CMBaseMobSpeciesOrganic
   id: RMCMobFeroxi
-  name: Urist C.M McFeroxi
+  name: Urist C.M McShark
   suffix: RMC14
   components:
   - type: HumanoidAppearance
@@ -10,20 +10,17 @@
     - Snout
     - HeadTop
     - HeadSide
-  
-    speciesId: feroxi
   - type: Icon
     sprite: _RMC14/Mobs/Feroxi/parts.rsi
     state: full
-  - type: Body
-    prototype: Feroxi
+  - type: Speech
     speechVerb: Feroxi
     allowedEmotes: [ 'Gnash', 'Thump' ] # added thump cuz why not, it makes sense
   - type: Vocal
     sounds:
-      Male: MaleFeroxi
-      Female: FemaleFeroxi
-      Unsexed: MaleFeroxi
+      Male: RMCMaleFeroxi
+      Female: RMCFemaleFeroxi
+      Unsexed: RMCMaleFeroxi
   - type: Sprite
     netsync: false
     noRot: true
