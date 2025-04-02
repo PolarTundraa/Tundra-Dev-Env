@@ -10,7 +10,6 @@
     - Snout
     - HeadTop
     - HeadSide
-    - Hair
   
     speciesId: feroxi
   - type: Icon
@@ -18,8 +17,6 @@
     state: full
   - type: Body
     prototype: Feroxi
-  - type: Speech
-    speechSounds: Tenor
     speechVerb: Feroxi
     allowedEmotes: [ 'Gnash', 'Thump' ] #added thump cuz why not, it makes sense
   - type: Vocal
@@ -66,8 +63,6 @@
       - map: [ "belt" ]
       - map: [ "neck" ]
       - map: [ "back" ]
-      - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
-      - map: [ "enum.HumanoidVisualLayers.Hair" ]
       - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
       - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
       - map: [ "enum.HumanoidVisualLayers.Tail" ]
@@ -82,7 +77,7 @@
       - map: [ "acided" ]
       - map: [ "hooked" ]
         sprite: "_RMC14/Effects/xeno_spray_acid.rsi"
-        state:hooked
+        state: hooked
         visible: false
       - map: [ "targetedDirection"]
         sprite: _RMC14/Effects/targeted.rsi
