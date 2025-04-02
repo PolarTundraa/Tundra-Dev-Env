@@ -37,6 +37,7 @@
 
 - type: markingPoints
   id: MobFeroxiMarkingLimits
+  points:
     Tail:
       points: 1
       required: true
